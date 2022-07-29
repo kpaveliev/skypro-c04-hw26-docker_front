@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  front:
+    build:
+      context: .
+    image: kpaveliev/skypro-kinopoisk_front
+    ports:
+      - 80:80
+
